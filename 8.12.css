@@ -1,0 +1,316 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+
+main {margin: auto;}
+
+header, .main-wrapper, .footer-wrapper, .course-start-wrapper, .reviews-wrapper {
+    margin: 0px auto;
+    max-width: 1280px;}
+
+.promo-wrapper, .about-wrapper, .lessons-info, .lessons-wrapper {display: flex;}
+
+.promo-wrapper, .about-wrapper {justify-content: space-between;}
+
+dl {
+    display: inline-flex;
+    font-size: 18px;
+    padding-top: 50px;}
+dt {
+    font-size: 25px;}
+
+dd {padding-top: 10px;}
+
+.promo-content, .article-about {width: 55%;}  
+
+header {margin-bottom: 100px;}
+
+.info {font-size: 20px;
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;}
+
+/*H and text styles*/
+
+h1,h2,h3 {font-family: "Roboto Slab", sans-serif;}
+h1 {font-size: 80px;}
+h2 {font-size: 55px; padding-bottom: 30px; padding-top: 60px;}
+h3 {font-size: 30px;}
+h4 {font-size: 24px; margin-left: 10px;}
+
+.quote {text-align: center;}
+
+li {margin-left: 40px;}
+
+/* lessons styles*/
+
+.lessons-info  {
+        display: flex;
+        justify-content: flex-start;}
+
+.lessons-feature {width: 25%;
+                margin-left: 50px;
+                margin-right: 0px;}
+
+.feature {color: #1E4681;}
+   
+/*Course-start styles*/
+
+.course-start-wrapper {padding: 180px 0;}
+
+.course-start, footer {width: 100%;}
+
+.course-start {background-color: #9DC9C8;}
+
+/*review styles*/
+
+.reviews-wrapper {padding: 100px 0;}
+
+.review-content {max-width: 791px;}
+
+.reviews {background-color: #EFEFEF;}
+
+.review-content {border: 1px solid EFEFEF;
+                box-shadow: 0 0 20px 5px #f5e7e7f6;
+                width: 60%;
+                background-color: #FFFFFF;
+                padding: 50px;
+                border-radius: 20px;}
+
+.review {padding: 50px;}
+
+.reviewer-name {display: inline-block;}
+
+.reviewer {display: flex;}
+
+.name {font-size: 30px; 
+        font-weight: 700;
+        display: inline-block;
+        padding-top: 50px;}
+
+/* program styles*/
+
+.program {padding: 100px 0;}
+
+.item{ width: 30%;
+    height: 328px;
+    border-radius: 30px;
+    display: inline-block;
+    border: 1px solid #E5E5E5;
+  box-shadow: 0 0 20px 1px #E5E5E5;
+  margin:15px;}
+  
+.program-item {display: flex;
+  flex-wrap: wrap;}
+
+.course-feature {width: 25%;
+margin-right: 50px;}
+
+/*footer styles*/
+
+footer {background-color: #000000;
+color: #FFFFFF;}
+.contacts {width: 30%;
+            margin-top: 30px;}
+
+.footer-content {width: 100%;
+display: flex;
+justify-content: space-between;}
+
+.tel, .email {display: inline;
+font-size: 25px;
+padding-top: 20px;}
+
+.footer-contakt-wrapper {margin-top: 50px;}
+
+.logo-full {font-size: 18px; 
+margin-top: 150px;
+padding-bottom: 60px;}
+
+@media (max-width: 1279px) {
+    body {
+        font-size: 14px;
+    }
+    header, .main-wrapper, .footer-wrapper, .course-start-wrapper, .reviews-wrapper {
+    
+        max-width: 992px;}
+    dl {
+        display: inline-flex;
+        font-size: 10px;
+        padding-top: 5px;}
+    dt {
+        font-size: 12px;}
+    
+    dd {padding-top: 5px;}
+
+    header {margin-bottom: 45px;}
+
+.info {font-size: 12px;
+    display: inline-block;
+    padding-right: 12px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+h1 {font-size: 46px;}
+h2 {font-size: 32px; padding-bottom: 30px; padding-top: 60px;}
+h3 {font-size: 22px;}
+h4 {font-size: 17px; margin-left: 5px;}
+
+.quote {text-align: center;}
+
+li {margin-left: 32px;}
+
+.lessons-feature {width: 25%;
+    margin-left: 30px;
+    margin-right: 0px;}
+
+.course-start-wrapper {padding: 104px 0;}
+
+.reviews-wrapper {padding: 42px 0;}
+
+.review-content {max-width: 458px;} 
+
+.review-content {border: 1px solid EFEFEF;
+                box-shadow: 0 0 20px 5px #f5e7e7f6;
+                width: 60%;
+                background-color: #FFFFFF;
+                padding: 30px;
+                border-radius: 20px;}
+
+.review {padding: 15px;}
+
+.name {font-size: 14px; 
+        font-weight: 700;
+        display: inline-block;
+        padding-top: 50px;}
+
+.program {padding: 35px 0;}
+
+.item{ width: 30%;
+    height: 190px;
+    border-radius: 30px;
+    display: inline-block;
+    border: 1px solid #E5E5E5;
+  box-shadow: 0 0 20px 1px #E5E5E5;
+  margin:15px;}
+
+  .course-feature {width: 25%;
+margin-right: 30px;}
+
+.contacts {width: 30%;
+            margin-top: 15px;}
+
+.tel, .email {display: inline;
+font-size: 14px;
+padding-top: 15px;}
+
+.footer-contakt-wrapper {margin-top: 30px;}
+
+.logo-full {font-size: 10px; 
+margin-top: 85px;
+padding-bottom: 15px;}
+}
+
+
+@media (max-width: 991px) {
+    header, .main-wrapper, .footer-wrapper, .course-start-wrapper, .reviews-wrapper {
+        max-width: 320px;}
+
+        body {
+            font-size: 12px;}
+
+            dl {
+                display: inline-flex;
+                font-size: 10px;
+                padding-top: 5px;}
+            dt {
+                font-size: 12px;}
+            
+            dd {padding-top: 5px;}
+        
+            header {margin-bottom: 45px;}
+        
+        .info {font-size: 10px;
+            display: inline-block;
+            padding-right: 10px;
+            margin-left: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;}
+        
+        h1 {font-size: 37px;}
+        h2 {font-size: 26px; padding-bottom: 20px; padding-top: 60px;}
+        h3 {font-size: 22px;}
+        h4 {font-size: 14px; margin-left: 5px;}
+        
+        .quote {text-align: center;}
+        
+        li {margin-left: 32px;}
+        
+        .lessons-feature {width: 100%;
+            margin-left: 30px;
+            margin-right: 0px;}
+        
+        .course-start-wrapper {padding: 57px 0;}
+        
+        .reviews-wrapper {padding: 40px 0;}
+        
+        .review-content {max-width: 308px;} 
+        
+        .review-content {border: 1px solid EFEFEF;
+                        box-shadow: 0 0 20px 5px #f5e7e7f6;
+                        width: 60%;
+                        background-color: #FFFFFF;
+                        padding: 20px;
+                        border-radius: 20px;}
+        
+        .review {padding: 15px;}
+        
+        .name {font-size: 14px; 
+                font-weight: 700;
+                display: inline-block;
+                padding-top: 40px;}
+        
+        .program {padding: 35px 0;}
+        
+        .item {width: 100%;
+            height: 153px;
+            border-radius: 30px;
+            display: inline-block;
+            border: 1px solid #E5E5E5;
+          box-shadow: 0 0 20px 1px #E5E5E5;
+          margin:10px;}
+        
+          .course-feature {width: 25%;
+        margin-right: 30px;}
+        
+        .contacts {margin-top: 15px;}
+        
+        .tel, .email {display: inline;
+        font-size: 12px;
+        padding-top: 15px;}
+        
+        .footer-contakt-wrapper {margin-top: 30px;}
+        
+        .logo-full {font-size: 10px; 
+        margin-top: 48px;
+        padding-bottom: 10px;}
+        
+
+        .footer-content, .program-item, .lessons-info, .promo-wrapper, .about-wrapper {flex-wrap: wrap;}
+
+        .footer-contakt-wrapper, .contacts {width: 100%;}
+
+        .picture {display: hidden;}
+
+        .promo-content, .article-about {width: 100%;}
+    } 
